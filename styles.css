@@ -1,45 +1,136 @@
-/* Estilos para centrar y organizar la página */
+/* Estilos generales del cuerpo */
 body {
-    font-family: sans-serif;
-    background-color: #f0f0f0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
     margin: 0;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #333;
 }
 
-h1 {
+header {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Contenedor para el libro, para centrarlo y darle espacio */
+h1 {
+    font-size: 2.5rem;
+    color: #1c1e21;
+}
+
+p {
+    font-size: 1rem;
+    color: #606770;
+}
+
+/* Contenedor del libro */
 .flipbook-container {
     width: 90vw;
-    max-width: 900px; /* Ancho máximo del libro visible */
+    max-width: 1000px; /* Ancho máximo del libro visible */
+    height: 70vh;
+    max-height: 600px;
 }
 
 /* Estilos para el libro en sí */
 #catalog-book {
     width: 100%;
-    height: 600px; /* Altura fija para el libro */
-    border: 1px solid #a9a9a9;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    height: 100%;
+    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-/* Estilo para cada página del libro */
-#catalog-book .page {
-    background-color: white;
+/* Estilo general para cada página del libro */
+.page {
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    border: 1px solid #ddd;
 }
 
-/* Asegura que la imagen dentro de la página ocupe todo el espacio sin deformarse */
-#catalog-book .page img {
+/* Estilo para las páginas que contienen imágenes */
+.page.image-page img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* o 'contain' si prefieres que se vea toda la imagen aunque sobre espacio */
+    object-fit: cover;
+}
+
+/* Estilo para las páginas de descripción del producto */
+.page.details-page {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 2rem;
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+.product-details {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #1c1e21;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #f0f2f5;
+    padding-bottom: 0.5rem;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #00a884; /* Verde de WhatsApp */
+    margin-bottom: 1rem;
+}
+
+.product-description {
+    flex-grow: 1; /* Ocupa el espacio disponible */
+    font-size: 0.9rem;
+    line-height: 1.5;
+    white-space: pre-wrap; /* Mantiene los saltos de línea y espacios del texto */
+    overflow-y: auto; /* Permite scroll si la descripción es muy larga */
+}
+
+/* Estilo para el botón de WhatsApp */
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+    transform: scale(1.05);
+}
+
+.whatsapp-button svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/* Estilo para la portada y contraportada */
+.cover-page {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
 }
