@@ -1,0 +1,45 @@
+/* Estilos para centrar y organizar la página */
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Contenedor para el libro, para centrarlo y darle espacio */
+.flipbook-container {
+    width: 90vw;
+    max-width: 900px; /* Ancho máximo del libro visible */
+}
+
+/* Estilos para el libro en sí */
+#catalog-book {
+    width: 100%;
+    height: 600px; /* Altura fija para el libro */
+    border: 1px solid #a9a9a9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Estilo para cada página del libro */
+#catalog-book .page {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Asegura que la imagen dentro de la página ocupe todo el espacio sin deformarse */
+#catalog-book .page img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* o 'contain' si prefieres que se vea toda la imagen aunque sobre espacio */
+}
