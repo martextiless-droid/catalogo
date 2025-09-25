@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'assets/pagina5.jpg',
         'assets/pagina6.jpg',
         'assets/pagina7.png',
-        'assets.pagina8.png' // <-- ¡OJO! Corregí un error de escritura aquí también
+        'assets/pagina8.png' // <-- ¡OJO! Corregí un error de escritura aquí también
     ];
 
     // Crea el objeto PageFlip con una configuración más simple
