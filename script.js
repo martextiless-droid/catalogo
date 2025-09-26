@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
             ref: '3308', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
+	{
 	    image: 'assets/pagina9.jpg',
             ref: '3309', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
@@ -68,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
             ref: '3313', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
+	{
             image: 'assets/pagina14.jpg',
             ref: '3314', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
