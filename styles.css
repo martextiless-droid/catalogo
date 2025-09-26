@@ -3,7 +3,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: #f0f2f5;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@ header {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #1c1e21;
 }
 
@@ -27,10 +27,10 @@ p {
 
 /* Contenedor del libro */
 .flipbook-container {
-    width: 90vw;
-    max-width: 1000px; /* Ancho máximo del libro visible */
-    height: 70vh;
-    max-height: 600px;
+    width: 95vw;
+    max-width: 1000px;
+    height: 80vh;
+    max-height: 700px; /* Aumentamos un poco la altura máxima */
 }
 
 /* Estilos para el libro en sí */
@@ -41,96 +41,111 @@ p {
     border-radius: 8px;
 }
 
-/* Estilo general para cada página del libro */
-.page {
+/* Estilo para la página ÚNICA del producto */
+.page.product-page {
     background-color: #ffffff;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* En pantallas pequeñas, la imagen va arriba y el texto abajo */
+    flex-direction: column; 
+    align-items: stretch;
     overflow: hidden;
     border: 1px solid #ddd;
 }
 
-/* Estilo para las páginas que contienen imágenes */
-.page.image-page img {
+.product-image-container {
+    width: 100%;
+    height: 55%; /* La imagen ocupa un poco más de la mitad superior */
+    flex-shrink: 0;
+}
+
+.product-image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-/* Estilo para las páginas de descripción del producto */
-.page.details-page {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-    padding: 2rem;
-    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
-}
-
 .product-details {
-    height: 100%;
+    padding: 1rem;
+    height: 45%; /* El texto ocupa el resto del espacio */
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    overflow-y: auto; /* Permite scroll si el texto no cabe */
 }
 
 .product-title {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    color: #1c1e21;
-    margin-bottom: 0.5rem;
-    border-bottom: 2px solid #f0f2f5;
-    padding-bottom: 0.5rem;
+    margin: 0 0 0.25rem 0;
 }
 
 .product-price {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    color: #00a884; /* Verde de WhatsApp */
-    margin-bottom: 1rem;
+    color: #00a884;
+    margin-bottom: 0.5rem;
 }
 
 .product-description {
-    flex-grow: 1; /* Ocupa el espacio disponible */
-    font-size: 0.9rem;
-    line-height: 1.5;
-    white-space: pre-wrap; /* Mantiene los saltos de línea y espacios del texto */
-    overflow-y: auto; /* Permite scroll si la descripción es muy larga */
+    flex-grow: 1; /* Ocupa el espacio restante */
+    font-size: 0.8rem;
+    line-height: 1.4;
+    white-space: pre-wrap; /* Mantiene los saltos de línea */
+    margin-bottom: 0.5rem;
 }
 
 /* Estilo para el botón de WhatsApp */
 .whatsapp-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block; /* Ocupa todo el ancho */
     background-color: #25D366;
-    color: white;
-    padding: 15px 20px;
-    border-radius: 50px;
+    color: white !important; /* !important para asegurar el color */
+    padding: 12px 15px;
+    border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;
-    margin-top: 1rem;
-    transition: background-color 0.3s, transform 0.2s;
+    margin-top: auto; /* Empuja el botón al final del contenedor */
+    transition: background-color 0.3s;
     border: none;
     cursor: pointer;
 }
 
 .whatsapp-button:hover {
     background-color: #128C7E;
-    transform: scale(1.05);
-}
-
-.whatsapp-button svg {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
 }
 
 /* Estilo para la portada y contraportada */
-.cover-page {
+.page.cover-page {
     background-color: #333;
     color: white;
     text-align: center;
-    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.cover-page h2 {
+    font-size: 2.5rem;
+}
+
+/* Media Query para pantallas de escritorio (cuando se ven 2 páginas) */
+@media (min-width: 900px) {
+    .page.product-page {
+        /* Volvemos a la vista de imagen a la izquierda y texto a la derecha */
+        flex-direction: row;
+    }
+
+    .product-image-container {
+        width: 50%;
+        height: 100%;
+    }
+
+    .product-details {
+        width: 50%;
+        height: 100%;
+        padding: 2rem;
+    }
+}
+
