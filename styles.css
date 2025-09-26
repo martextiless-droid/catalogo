@@ -3,7 +3,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: #f0f2f5;
     margin: 0;
-    padding: 20px; /* Aumentamos el padding para dar más aire */
+    padding: 10px; /* Reducimos el padding para que el libro ocupe más espacio */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,10 +15,10 @@ body {
 .flipbook-container {
     width: 95vw;
     /* Aumentamos el ancho máximo para que se vea más grande en PC */
-    max-width: 600px; 
+    max-width: 750px; 
     height: 90vh;
     /* Aumentamos también la altura máxima para darle más espacio vertical */
-    max-height: 850px; 
+    max-height: 900px; 
 }
 
 /* Estilos para el libro en sí */

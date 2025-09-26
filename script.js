@@ -214,6 +214,22 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 	{
             image: 'assets/pagina14.jpg',
+            ref: '3315XL',
+            title: 'Pijama Batola XL Ref: 3315XL',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `*TALLA:* XL
+*TELA:* Piel de durazno.
+*Estampados surtidos.*
+
+*Precios por Cantidad:*
+- Valor x 1: $20.000
+- Valor x 6: $81.000 ($13.500 c/u)
+- Valor x 12: $138.000 ($11.500 c/u)
+- Valor x 120+: $11.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/pagina15.png',
             ref: '3316',
             title: 'Pijama Short Ref: 3316',
             price: 'Desde COP 9.000 al por mayor',
@@ -229,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function () {
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/pagina15.png',
+            image: 'assets/pagina16.jpg',
             ref: '3316XL',
             title: 'Pijama Short Ref: 3316XL',
             price: 'Desde COP 9.000 al por mayor',
@@ -238,26 +254,10 @@ document.addEventListener('DOMContentLoaded', function () {
 *Estampados surtidos.*
 
 *Precios por Cantidad:*
-- Valor x 1: $18.000
-- Valor x 6: $69.000 ($11.500 c/u)
-- Valor x 12: $114.000 ($9.500 c/u)
-- Valor x 120+: $9.000 c/u`,
-            link: 'https://wa.me/p/5910055192376860/573015547616'
-        },
-	{
-            image: 'assets/pagina16.jpg',
-            ref: '3319',
-            title: 'Pijama Short Ref: 3319',
-            price: 'Desde COP 9.000 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
-
-*Precios por Cantidad:*
-- Valor x 1: $18.000
-- Valor x 6: $69.000 ($11.500 c/u)
-- Valor x 12: $114.000 ($9.500 c/u)
-- Valor x 120+: $9.000 c/u`,
+- Valor x 1: $20.000
+- Valor x 6: $81.000 ($13.500 c/u)
+- Valor x 12: $138.000 ($11.500 c/u)
+- Valor x 120+: $11.000 c/u`,
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
