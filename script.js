@@ -320,7 +320,7 @@ const pageFlip = new St.PageFlip(bookElement, {
 });
 
 // Vamos a cargar UNA SOLA imagen
-pageFlip.loadFromImages(['assets/pagina1.jpg']);
+pageFlip.loadFromImages(['assets/pagina1.png']);
 
 // La librería detecta automáticamente las páginas hijas, no se necesita "load"
 });
