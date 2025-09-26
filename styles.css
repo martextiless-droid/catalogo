@@ -8,61 +8,68 @@ body {
     min-height: 100vh;
 }
 
-/* Contenedor del libro (ya lo tienes en index.html) */
 .flipbook-container {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-/* Estilo para cada página generada por JavaScript */
+/* Estilo para cada página */
 .page {
     background-color: white;
     border: 1px solid #ccc;
-    overflow: hidden; /* Evita que el contenido se salga */
+    overflow: hidden;
 }
 
-/* Contenido dentro de cada página */
+/* LA CLAVE: Contenedor principal con Flexbox para crear las 2 columnas */
 .page-content {
-    padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Pone los elementos uno al lado del otro */
+    align-items: stretch; /* Estira los items para que ocupen la misma altura */
+    padding: 20px;
+    gap: 20px; /* Espacio entre la imagen y el texto */
     height: 100%;
     box-sizing: border-box;
 }
-.page-content img {
-    width: 100%;
-    height: 350px;         /* Le damos una altura fija a la imagen */
-    object-fit: cover;     /* La imagen cubre el espacio sin deformarse */
-    border-radius: 5px;
-    margin-bottom: 10px;
+
+/* Columna de la Imagen (50% del ancho) */
+.product-image-column {
+    flex: 1; /* Ocupa la mitad del espacio disponible */
+    object-fit: cover; /* La imagen cubre su espacio sin deformarse */
+    border-radius: 8px;
+    min-width: 0; /* Soluciona problemas de tamaño en flexbox */
 }
 
-.page-content h3 {
-    font-size: 1.2rem;
+/* Columna de la Información (50% del ancho) */
+.product-info-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* Organiza el texto verticalmente */
+    min-width: 0;
+}
+
+.product-info-column h3 {
+    font-size: 1.3rem;
     margin: 0 0 10px 0;
     color: #333;
-    text-align: center;
 }
 
-.page-content .price {
-    font-size: 1rem;
+.product-info-column .price {
+    font-size: 1.1rem;
     font-weight: bold;
     color: #007bff;
     margin-bottom: 15px;
-    text-align: center;
 }
 
-.page-content .description {
+.product-info-column .description {
     font-size: 0.9rem;
     color: #666;
-    text-align: left;
-    white-space: pre-wrap; /* Respeta los saltos de línea de la descripción */
-    flex-grow: 1; /* Ocupa el espacio sobrante */
+    white-space: pre-wrap;
     margin-bottom: 20px;
+    flex-grow: 1; /* Empuja el botón hacia abajo */
 }
 
-.page-content .whatsapp-button {
-    display: block; /* Ocupa todo el ancho */
+.product-info-column .whatsapp-button {
+    display: block;
     background-color: #25D366;
     color: white;
     padding: 12px 15px;
@@ -70,10 +77,10 @@ body {
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    margin-top: auto; /* Se asegura de que el botón esté al final */
     transition: background-color 0.3s ease;
-    margin-top: auto; /* Empuja el botón hacia abajo */
 }
 
-.page-content .whatsapp-button:hover {
+.product-info-column .whatsapp-button:hover {
     background-color: #128C7E;
 }
