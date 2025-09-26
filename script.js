@@ -150,8 +150,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 	{
   	    image: 'assets/pagina10.jpg',
-            ref: '3306',
-            title: 'Pijama Short Ref: 3306',
+            ref: '3310',
+            title: 'Pijama Short Ref: 3310',
             price: 'Desde COP 9.000 al por mayor',
             description: `*TALLA:* Unica
 *TELA:* Piel de durazno.
@@ -166,8 +166,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 	{
  	    image: 'assets/pagina11.jpg',
-            ref: '3306',
-            title: 'Pijama Short Ref: 3306',
+            ref: '3311',
+            title: 'Pijama Bolero Ref: 3311',
             price: 'Desde COP 9.000 al por mayor',
             description: `*TALLA:* Unica
 *TELA:* Piel de durazno.
@@ -182,8 +182,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 	{
             image: 'assets/pagina12.jpg',
-            ref: '3306',
-            title: 'Pijama Short Ref: 3306',
+            ref: '3312',
+            title: 'Pijama Batola Ref: 3312',
             price: 'Desde COP 9.000 al por mayor',
             description: `*TALLA:* Unica
 *TELA:* Piel de durazno.
@@ -198,8 +198,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 	{
             image: 'assets/pagina13.jpg',
-            ref: '3306',
-            title: 'Pijama Short Ref: 3306',
+            ref: '3315',
+            title: 'Pijama Batola Ref: 3315',
             price: 'Desde COP 9.000 al por mayor',
             description: `*TALLA:* Unica
 *TELA:* Piel de durazno.
@@ -214,8 +214,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 	{
             image: 'assets/pagina14.jpg',
-            ref: '3306',
-            title: 'Pijama Short Ref: 3306',
+            ref: '3316',
+            title: 'Pijama Short Ref: 3316',
             price: 'Desde COP 9.000 al por mayor',
             description: `*TALLA:* Unica
 *TELA:* Piel de durazno.
@@ -230,10 +230,10 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 	{
             image: 'assets/pagina15.png',
-            ref: '3306',
-            title: 'Pijama Short Ref: 3306',
+            ref: '3316XL',
+            title: 'Pijama Short Ref: 3316XL',
             price: 'Desde COP 9.000 al por mayor',
-            description: `*TALLA:* Unica
+            description: `*TALLA:* XL
 *TELA:* Piel de durazno.
 *Estampados surtidos.*
 
@@ -246,8 +246,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 	{
             image: 'assets/pagina16.jpg',
-            ref: '3306',
-            title: 'Pijama Short Ref: 3306',
+            ref: '3319',
+            title: 'Pijama Short Ref: 3319',
             price: 'Desde COP 9.000 al por mayor',
             description: `*TALLA:* Unica
 *TELA:* Piel de durazno.
@@ -262,8 +262,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 	{
             image: 'assets/pagina17.jpg',
-            ref: '3306',
-            title: 'Pijama Short Ref: 3306',
+            ref: '3320',
+            title: 'Pijama Short Ref: 3320',
             price: 'Desde COP 9.000 al por mayor',
             description: `*TALLA:* Unica
 *TELA:* Piel de durazno.
@@ -278,8 +278,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 	{
             image: 'assets/pagina18.png',
-            ref: '3306',
-            title: 'Pijama Short Ref: 3306',
+            ref: '3324',
+            title: 'Pijama Short Ref: 3324',
             price: 'Desde COP 9.000 al por mayor',
             description: `*TALLA:* Unica
 *TELA:* Piel de durazno.
@@ -294,8 +294,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
 	{
             image: 'assets/pagina19.jpg',
-            ref: '3306',
-            title: 'Pijama Short Ref: 3306',
+            ref: '3328',
+            title: 'Pijama Short Ref: 3328',
             price: 'Desde COP 9.000 al por mayor',
             description: `*TALLA:* Unica
 *TELA:* Piel de durazno.
