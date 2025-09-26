@@ -1,75 +1,66 @@
-/* Estilos generales del cuerpo */
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: #e9ebee; /* Un gris más claro y moderno */
+/* Estilos generales */
+html, body {
     margin: 0;
-    padding: 0; /* Eliminamos el padding para un diseño de borde a borde */
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Evita barras de scroll innecesarias */
+    background-color: #333; /* Fondo oscuro para resaltar el libro */
+}
+
+/* Contenedor que ocupa toda la pantalla */
+.flipbook-container {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    padding: 20px;
     box-sizing: border-box;
 }
 
-/* Contenedor del libro */
-.flipbook-container {
-    width: 100vw; /* Ocupa el 100% del ancho de la pantalla */
-    height: 100vh; /* Ocupa el 100% del alto de la pantalla */
-    
-    /* En pantallas grandes, le ponemos un límite de tamaño y lo centramos */
-    max-width: 700px; 
-    max-height: 950px;
-    margin: 0 auto;
-}
-
-/* Estilos para el libro en sí */
+/* El libro en sí */
 #catalog-book {
     width: 100%;
     height: 100%;
-    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    max-height: 800px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
 }
 
-/* Estilo para la página ÚNICA del producto */
-.page.product-page {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column; 
-    align-items: stretch;
+/* Estilo base para todas las páginas */
+.page {
+    background-color: white;
     overflow: hidden;
 }
 
-.product-image-container {
-    width: 100%;
-    height: 60%;
-    flex-shrink: 0;
-}
-
-.product-image-container img {
+/* Página que solo contiene la imagen */
+.page.image-page img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.product-details {
-    padding: 1.5rem; /* Más padding para que el texto respire */
-    height: 40%;
+/* Página que contiene la descripción */
+.page.description-page {
+    padding: 2rem 2.5rem;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     overflow-y: auto;
+    font-family: sans-serif;
 }
 
 .product-title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 1rem 0;
 }
 
 .product-price {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #00a884;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .product-description {
@@ -77,25 +68,24 @@ body {
     font-size: 1rem;
     line-height: 1.6;
     white-space: pre-wrap;
-    margin-bottom: 1rem;
-    color: #606770;
+    margin-bottom: 1.5rem;
+    color: #333;
 }
 
-/* Estilo para el botón de WhatsApp */
 .whatsapp-button {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     background-color: #25D366;
     color: white !important;
-    padding: 15px 20px;
+    padding: 15px 25px;
     border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-top: auto;
-    transition: background-color 0.3s, transform 0.2s;
+    transition: all 0.3s;
     border: none;
     cursor: pointer;
 }
@@ -106,22 +96,22 @@ body {
 }
 
 .whatsapp-button svg {
-    width: 22px;
-    height: 22px;
-    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
 }
 
-/* Estilo para la portada */
+/* Portada */
 .page.cover-page {
-    background-color: #333;
+    background-color: #2c2c2c;
     color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: sans-serif;
 }
+.cover-page h2 { font-size: 5rem; line-height: 1.1; }
+.cover-page p { font-size: 1.5rem; margin-top: 1rem; color: #ccc; }
 
-.cover-page h2 {
-    font-size: 3rem;
-}
