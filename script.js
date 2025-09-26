@@ -322,12 +322,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // --- Agregar todos los elementos del producto ---
         pageContent.innerHTML = `
-            <img src="${product.image}" alt="${product.title}">
-            <h3>${product.title}</h3>
-            <p class="price">${product.price}</p>
-            <p class="description">${product.description}</p>
-            <a href="${product.link}" class="whatsapp-button" target="_blank">Pedir por WhatsApp</a>
-        `;
+    <img src="${product.image}" alt="${product.title}">
+    <h3>${product.title}</h3>
+    <p class="price">${product.price}</p>
+    <p class="description">${product.description}</p>
+    <a href="${product.link}" class="whatsapp-button" target="_blank">Pedir por WhatsApp</a>
+`;
 
         page.appendChild(pageContent);
         catalogBook.appendChild(page);
