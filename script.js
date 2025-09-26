@@ -5,22 +5,22 @@ document.addEventListener('DOMContentLoaded', function () {
     // Aquí está toda la información. Si quieres añadir o cambiar un producto, solo edita esta sección.
     const products = [
         {
-            image: 'assets/pagina1.jpg',
+            image: 'assets/pagina1.png',
             ref: '3301',
             link: 'https://wa.me/p/3760818927282293/573015547616'
         },
         {
-            image: 'assets/pagina2.jpg',
+            image: 'assets/pagina2.png',
             ref: '3302', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/8897517780318866/573015547616'
         },
         {
-            image: 'assets/pagina3.jpg',
+            image: 'assets/pagina3.png',
             ref: '3303', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/6043646905731935/573015547616'
         },
         {
-            image: 'assets/pagina4.jpg',
+            image: 'assets/pagina4.png',
             ref: '3304', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/24073798738876233/573015547616'
         },
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
             link: 'https://wa.me/p/6114342001952498/573015547616'
         },
         {
-            image: 'assets/pagina6.jpg',
+            image: 'assets/pagina6.png',
             ref: '3306', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5904539409675217/573015547616'
         },
@@ -40,7 +40,51 @@ document.addEventListener('DOMContentLoaded', function () {
             link: 'https://wa.me/p/5351728944929832/573015547616'
         },
         {
-            image: 'assets/pagina8.png',
+            image: 'assets/pagina8.jpg',
+            ref: '3308', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	    image: 'assets/pagina9.jpg',
+            ref: '3309', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+  	    image: 'assets/pagina10.jpg',
+            ref: '3310', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+ 	    image: 'assets/pagina11.jpg',
+            ref: '3311', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+            image: 'assets/pagina12.jpg',
+            ref: '3312', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+            image: 'assets/pagina13.jpg',
+            ref: '3313', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+            image: 'assets/pagina14.jpg',
+            ref: '3314', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+            image: 'assets/pagina15.png',
+            ref: '3315', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+            image: 'assets/pagina16.jpg',
+            ref: '3316', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+            image: 'assets/pagina17.jpg',
+            ref: '3317', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+            image: 'assets/pagina18.png',
+            ref: '3318', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+            image: 'assets/pagina19.jpg',
             ref: '3308', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         }
