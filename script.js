@@ -310,33 +310,24 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     ];
 
-// --- LÓGICA PARA CONSTRUIR EL LIBRO ---
+// --- LÓGICA PARA CONSTRUIR EL LIBRO (VERSIÓN FINAL Y CORRECTA) ---
     
 const bookElement = document.getElementById('catalog-book');
 
-const pageFlip = new St.PageFlip(bookElement, {
-    width: 500,  // Ancho de CADA página
-    height: 700, // Altura de CADA página
-    // No añadir más configuraciones por ahora para mantenerlo simple
-});
-
-// 1. Crear un array para guardar todas nuestras páginas
-const pages = [];
-
-// 2. Añadir la Portada como el primer elemento de la lista
-pages.push(`
-    <div class="page cover-page">
+// 1. Crear la Portada
+const coverPageHTML = `
+    <div class="page cover-page" data-density="hard">
         <h2>Pijamas Martex</h2>
         <p>Colección 2025</p>
     </div>
-`);
+`;
 
-// 3. Crear y añadir las páginas de los productos a la lista
-products.forEach(product => {
+// 2. Crear las Páginas de los Productos
+const productPagesHTML = products.map(product => {
     // Convertimos los saltos de línea (\n) en etiquetas <br> para que el HTML los entienda
     const formattedDescription = product.description.replace(/\n/g, '<br>');
 
-    const pageHTML = `
+    return `
         <div class="page product-page">
             <div class="product-image-container">
                 <img src="${product.image}" alt="${product.title}">
@@ -352,10 +343,16 @@ products.forEach(product => {
                 </div>
             </div>
         `;
-    pages.push(pageHTML);
+}).join('');
+
+// 3. Añadir todo el HTML generado al contenedor del libro
+bookElement.innerHTML = coverPageHTML + productPagesHTML;
+
+// 4. Inicializar PageFlip DESPUÉS de que el HTML está en la página
+const pageFlip = new St.PageFlip(bookElement, {
+    width: 500,
+    height: 700,
 });
 
-// 4. Cargar el array completo de páginas al libro
-pageFlip.loadFromHTML(pages);
-
+// La librería detecta automáticamente las páginas hijas, no se necesita "load"
 });
