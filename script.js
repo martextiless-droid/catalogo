@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // ¡Aquí es donde editas la información de cada pijama!
     const products = [
         {
-            image: 'assets/pagina1.jpg',
+            image: 'assets/pagina1.png',
             ref: '3301',
             title: 'Pijama Short Tiras Ref: 3301',
             price: 'Desde COP 9.000 al por mayor',
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
             link: 'https://wa.me/p/8897517780318866/573015547616'
         },
         {
-	    image: 'assets/pagina3.jpg',
+	    image: 'assets/pagina3.png',
             ref: '3305',
             title: 'Pijama Short Ref: 3305',
             price: 'Desde COP 9.000 al por mayor',
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
             link: 'https://wa.me/p/6043646905731935/573015547616'
         },
         {
-            image: 'assets/pagina4.jpg',
+            image: 'assets/pagina4.png',
             ref: '3305XL',
             title: 'Pijama Short XL Ref: 3305XL',
             price: 'Desde COP 11.500 al por mayor',
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
             link: 'https://wa.me/p/6114342001952498/573015547616'
         },
         {
-            image: 'assets/pagina6.jpg',
+            image: 'assets/pagina6.png',
             ref: '3308',
             title: 'Pijama Enterizo Ref: 3308',
             price: 'Desde COP 11.500 al por mayor',
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
             link: 'https://wa.me/p/5904539409675217/573015547616'
         },
         {
-            image: 'assets/pagina7.jpg',
+            image: 'assets/pagina7.png',
             ref: '3308XL',
             title: 'Pijama Enterizo Ref: 3308XL',
             price: 'Desde COP 13.500 al por mayor',
@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function () {
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/pagina15.jpg',
+            image: 'assets/pagina15.png',
             ref: '3306',
             title: 'Pijama Short Ref: 3306',
             price: 'Desde COP 9.000 al por mayor',
@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', function () {
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/pagina18.jpg',
+            image: 'assets/pagina18.png',
             ref: '3306',
             title: 'Pijama Short Ref: 3306',
             price: 'Desde COP 9.000 al por mayor',
