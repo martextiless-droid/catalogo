@@ -310,53 +310,48 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     ];
 
-   const bookElement = document.getElementById('catalog-book');
-    const bookContainer = document.querySelector('.flipbook-container');
+ // --- LÓGICA PARA CONSTRUIR EL LIBRO ---
+    
+const bookElement = document.getElementById('catalog-book');
 
-    // Inicializa la librería PageFlip
-    const pageFlip = new St.PageFlip(bookElement, {
-        width: 500,
-        height: 600,
-        size: 'stretch',
-        usePortrait: true,
-        drawShadow: false,
-        flippingTime: 500,
-        maxShadowOpacity: 0.1,
-    });
+const pageFlip = new St.PageFlip(bookElement, {
+    width: 500,  // Ancho de CADA página
+    height: 700, // Altura de CADA página
+    // No añadir más configuraciones por ahora para mantenerlo simple
+});
 
-    // --- CONSTRUCCIÓN DINÁMICA DEL LIBRO ---
+// 1. Crear la Portada
+const coverPageHTML = `
+    <div class="page cover-page">
+        <h2>Pijamas Martex</h2>
+        <p>Colección 2025</p>
+    </div>
+`;
 
-    // 1. Portada
-    const coverPage = document.createElement('div');
-    coverPage.classList.add('page', 'cover-page');
-    coverPage.innerHTML = '<h2>Pijamas Martex</h2><p>Colección 2025</p>';
-    bookElement.appendChild(coverPage);
+// 2. Crear las Páginas de los Productos
+const productPagesHTML = products.map(product => {
+    // Convertimos los saltos de línea (\n) en etiquetas <br> para que el HTML los entienda
+    const formattedDescription = product.description.replace(/\n/g, '<br>');
 
-    // 2. Páginas de productos (una página por producto)
-    products.forEach(product => {
-        const productPage = document.createElement('div');
-        productPage.classList.add('page', 'product-page');
-        // Ahora usamos los campos únicos de cada producto
-        productPage.innerHTML = `
+    return `
+        <div class="page product-page">
             <div class="product-image-container">
                 <img src="${product.image}" alt="${product.title}">
             </div>
             <div class="product-details">
-                <h2 class="product-title">${product.title}</h2>
+                <h3 class="product-title">${product.title}</h3>
                 <p class="product-price">${product.price}</p>
-                <div class="product-description">${product.description.replace(/\n/g, '<br>')}</div>
+                <p class="product-description">${formattedDescription}</p>
                 <a href="${product.link}" target="_blank" class="whatsapp-button">
-                    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.37 21.82 12.04 21.82C17.5 21.82 21.95 17.37 21.95 11.91C21.95 6.45 17.5 2 12.04 2M12.04 3.67C16.56 3.67 20.28 7.39 20.28 11.91C20.28 16.43 16.56 20.15 12.04 20.15C10.46 20.15 8.96 19.68 7.72 18.89L7.22 18.59L4.41 19.31L5.15 16.58L4.83 16.07C3.93 14.68 3.46 13.07 3.46 11.91C3.46 7.39 7.18 3.67 12.04 3.67M16.57 14.49C16.31 14.23 15.39 13.78 15.17 13.7C14.94 13.62 14.78 13.58 14.61 13.84C14.45 14.1 13.98 14.65 13.82 14.81C13.66 14.98 13.5 15 13.24 14.74C12.98 14.48 12.15 14.19 11.16 13.3C10.39 12.63 9.89 11.84 9.73 11.58C9.56 11.32 9.72 11.18 9.86 11.04C10 10.9 10.15 10.7 10.3 10.5C10.46 10.3 10.54 10.14 10.7 9.88C10.87 9.62 10.79 9.42 10.71 9.25C10.63 9.08 10.12 7.82 9.91 7.32C9.7 6.82 9.49 6.86 9.35 6.85H9.08C8.82 6.85 8.51 6.93 8.24 7.2C7.98 7.46 7.37 8.01 7.37 9.17C7.37 10.32 8.28 11.41 8.41 11.58C8.53 11.74 10.12 14.23 12.58 15.22C13.23 15.5 13.71 15.66 14.08 15.81C14.69 16.03 15.21 15.99 15.63 15.9C16.1 15.8 16.92 15.29 17.13 14.7C17.35 14.1 17.35 13.62 17.27 13.45C17.19 13.28 16.84 14.74 16.57 14.49Z"></path></svg>
-                    Ver y Comprar en WhatsApp
-                </a>
+                    <svg viewBox="0 0 32 32" class="whatsapp-ico"><path d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.63-.63c0-1.562 1.033-3.693 1.633-5.282.6-.962 1.023-1.562 1.023-2.583 0-1.148-.562-2.16-1.5-2.16-1.28 0-2.484 1.562-2.484 3.47 0 .962.533 2.148.9 3.16.368 1.02.233 1.562-.3 2.583-.562 1.02-.9 1.562-1.532 1.562-.932 0-1.562-.793-1.562-1.562 0-.663.2-1.326.366-1.99.167-.663.333-1.326.333-1.99 0-1.25-.5-2.5-1.833-2.5-1.333 0-2.667 1.25-2.667 3.25 0 .962.563 2.25.932 3.25.37 1.02.267 1.562-.3 2.582-.562 1.02-.9 1.562-1.532 1.562-.932 0-1.562-.793-1.562-1.562 0-.663.2-1.326.367-1.99.166-.663.333-1.326.333-1.99 0-1.25-.5-2.5-1.833-2.5-1.333 0-2.667 1.25-2.667 3.25 0 .962.563 2.25.932 3.25.37 1.02.267 1.562-.3 2.582-.563 1.02-.9 1.562-1.532 1.562-.932 0-1.562-.793-1.562-1.562 0-.663.2-1.326.366-1.99.167-.663.333-1.326.333-1.99 0-1.25-.5-2.5-1.833-2.5-1.333 0-2.667 1.25-2.667 3.25s.9 3.25 2.5 3.25c1.333 0 2.25-.962 2.25-2.25 0-.962-.367-2.148-.733-3.16-.366-1.02-.267-1.562.3-2.582.562-1.02.9-1.562 1.532-1.562.932 0 1.562.793 1.562 1.562 0 .663-.2 1.326-.366 1.99-.167-.663.333-1.326-.333-1.99 0 1.25.5 2.5 1.833-2.5 1.333 0 2.667-1.25 2.667-3.25s-.9-3.25-2.5-3.25c-1.333 0-2.25.962-2.25 2.25 0 .962.367 2.148.733 3.16.367 1.02.267 1.562-.3 2.582-.562 1.02-.9 1.562-1.532 1.562-.932 0-1.562-.793-1.562-1.562 0-.663.2-1.326.366-1.99.167-.663.333-1.326.333-1.99 0-1.25-.5-2.5-1.833-2.5-1.333 0-2.667 1.25-2.667 3.25 0 .962.563 2.25.932 3.25.37 1.02.267 1.562-.3 2.582-.562 1.02-.9 1.562-1.532 1.562-.932 0-1.562-.793-1.562-1.562 0-.663.2-1.326.367-1.99.166-.663.333-1.326.333-1.99 0-1.25-.5-2.5-1.833-2.5-1.333 0-2.667 1.25-2.667 3.25s.9 3.25 2.5 3.25c1.333 0 2.25-.962 2.25-2.25 0-.962-.367-2.148-.733-3.16-.367-1.02-.267-1.562.3-2.582.562-1.02.9-1.562 1.532-1.562.932 0 1.562.793 1.562 1.562 0 .663-.2 1.326-.366 1.99-.167-.663.333-1.326-.333-1.99 0 1.25.5 2.5 1.833-2.5 1.333 0 2.667-1.25 2.667-3.25s-.9-3.25-2.5-3.25c-1.333 0-2.25.962-2.25 2.25 0 .962.367 2.148.733 3.16.366 1.02.267 1.562-.3 2.582-.562 1.02-.9 1.562-1.532 1.562z" fill-rule="evenodd" fill="currentColor"></path></svg>
+                        <span>Ver y Comprar en WhatsApp</span>
+                    </a>
+                </div>
             </div>
         `;
-        bookElement.appendChild(productPage);
-    });
-    
-    // 3. Cargar las páginas en la librería
-    const pages = bookElement.querySelectorAll('.page');
-    pageFlip.loadFromHTML(pages);
+    }).join(''); // Unimos todas las páginas en un solo string
+
+// 3. Cargar todo al libro
+pageFlip.loadFromHTML(coverPageHTML + productPagesHTML);
 
 });
-
