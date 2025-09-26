@@ -1,116 +1,79 @@
-/* Estilos generales */
-html, body {
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
     margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden; /* Evita barras de scroll innecesarias */
-    background-color: #333; /* Fondo oscuro para resaltar el libro */
-}
-
-/* Contenedor que ocupa toda la pantalla */
-.flipbook-container {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
+    min-height: 100vh;
 }
 
-/* El libro en sí */
-#catalog-book {
-    width: 100%;
-    height: 100%;
-    max-width: 1200px;
-    max-height: 800px;
-    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+/* Contenedor del libro (ya lo tienes en index.html) */
+.flipbook-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-/* Estilo base para todas las páginas */
+/* Estilo para cada página generada por JavaScript */
 .page {
     background-color: white;
-    overflow: hidden;
+    border: 1px solid #ccc;
+    overflow: hidden; /* Evita que el contenido se salga */
 }
 
-/* Página que solo contiene la imagen */
-.page.image-page img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* Página que contiene la descripción */
-.page.description-page {
-    padding: 2rem 2.5rem;
+/* Contenido dentro de cada página */
+.page-content {
+    padding: 20px;
     display: flex;
     flex-direction: column;
+    height: 100%;
     box-sizing: border-box;
-    overflow-y: auto;
-    font-family: sans-serif;
 }
 
-.product-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin: 0 0 1rem 0;
+.page-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
-.product-price {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #00a884;
-    margin-bottom: 1.5rem;
-}
-
-.product-description {
-    flex-grow: 1;
-    font-size: 1rem;
-    line-height: 1.6;
-    white-space: pre-wrap;
-    margin-bottom: 1.5rem;
+.page-content h3 {
+    font-size: 1.2rem;
+    margin: 0 0 10px 0;
     color: #333;
+    text-align: center;
 }
 
-.whatsapp-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+.page-content .price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.page-content .description {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: left;
+    white-space: pre-wrap; /* Respeta los saltos de línea de la descripción */
+    flex-grow: 1; /* Ocupa el espacio sobrante */
+    margin-bottom: 20px;
+}
+
+.page-content .whatsapp-button {
+    display: block; /* Ocupa todo el ancho */
     background-color: #25D366;
-    color: white !important;
-    padding: 15px 25px;
-    border-radius: 30px;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.2rem;
     text-align: center;
-    margin-top: auto;
-    transition: all 0.3s;
-    border: none;
-    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: auto; /* Empuja el botón hacia abajo */
 }
 
-.whatsapp-button:hover {
+.page-content .whatsapp-button:hover {
     background-color: #128C7E;
-    transform: scale(1.05);
 }
-
-.whatsapp-button svg {
-    width: 24px;
-    height: 24px;
-    margin-right: 12px;
-}
-
-/* Portada */
-.page.cover-page {
-    background-color: #2c2c2c;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-}
-.cover-page h2 { font-size: 5rem; line-height: 1.1; }
-.cover-page p { font-size: 1.5rem; margin-top: 1rem; color: #ccc; }
