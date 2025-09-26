@@ -310,49 +310,17 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     ];
 
-// --- LÓGICA PARA CONSTRUIR EL LIBRO (VERSIÓN FINAL Y CORRECTA) ---
-    
+// --- LÓGICA DE PRUEBA ---
+
 const bookElement = document.getElementById('catalog-book');
 
-// 1. Crear la Portada
-const coverPageHTML = `
-    <div class="page cover-page" data-density="hard">
-        <h2>Pijamas Martex</h2>
-        <p>Colección 2025</p>
-    </div>
-`;
-
-// 2. Crear las Páginas de los Productos
-const productPagesHTML = products.map(product => {
-    // Convertimos los saltos de línea (\n) en etiquetas <br> para que el HTML los entienda
-    const formattedDescription = product.description.replace(/\n/g, '<br>');
-
-    return `
-        <div class="page product-page">
-            <div class="product-image-container">
-                <img src="${product.image}" alt="${product.title}">
-            </div>
-            <div class="product-details">
-                <h3 class="product-title">${product.title}</h3>
-                <p class="product-price">${product.price}</p>
-                <p class="product-description">${formattedDescription}</p>
-                <a href="${product.link}" target="_blank" class="whatsapp-button">
-                    <svg viewBox="0 0 32 32" class="whatsapp-ico"><path d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.63-.63c0-1.562 1.033-3.693 1.633-5.282.6-.962 1.023-1.562 1.023-2.583 0-1.148-.562-2.16-1.5-2.16-1.28 0-2.484 1.562-2.484 3.47 0 .962.533 2.148.9 3.16.368 1.02.233 1.562-.3 2.583-.562 1.02-.9 1.562-1.532 1.562-.932 0-1.562-.793-1.562-1.562 0-.663.2-1.326.366-1.99.167-.663.333-1.326.333-1.99 0-1.25-.5-2.5-1.833-2.5-1.333 0-2.667 1.25-2.667 3.25 0 .962.563 2.25.932 3.25.37 1.02.267 1.562-.3 2.582-.562 1.02-.9 1.562-1.532 1.562-.932 0-1.562-.793-1.562-1.562 0-.663.2-1.326.367-1.99.166-.663.333-1.326.333-1.99 0-1.25-.5-2.5-1.833-2.5-1.333 0-2.667 1.25-2.667 3.25 0 .962.563 2.25.932 3.25.37 1.02.267 1.562-.3 2.582-.563 1.02-.9 1.562-1.532 1.562-.932 0-1.562-.793-1.562-1.562 0-.663.2-1.326.366-1.99.167-.663.333-1.326.333-1.99 0-1.25-.5-2.5-1.833-2.5-1.333 0-2.667 1.25-2.667 3.25s.9 3.25 2.5 3.25c1.333 0 2.25-.962 2.25-2.25 0-.962-.367-2.148-.733-3.16-.366-1.02-.267-1.562.3-2.582.562-1.02.9-1.562 1.532-1.562.932 0 1.562.793 1.562 1.562 0 .663-.2 1.326-.366 1.99-.167-.663-.333-1.326-.333-1.99 0 1.25.5 2.5 1.833-2.5 1.333 0 2.667-1.25 2.667-3.25s-.9-3.25-2.5-3.25c-1.333 0-2.25.962-2.25 2.25 0 .962.367 2.148.733 3.16.367 1.02.267 1.562-.3 2.582-.562 1.02-.9 1.562-1.532 1.562-.932 0-1.562-.793-1.562-1.562 0-.663.2-1.326.366-1.99.167-.663.333-1.326.333-1.99 0-1.25-.5-2.5-1.833-2.5-1.333 0-2.667 1.25-2.667 3.25 0 .962.563 2.25.932 3.25.37 1.02.267 1.562-.3 2.582-.562 1.02-.9 1.562-1.532 1.562-.932 0-1.562-.793-1.562-1.562 0-.663.2-1.326.367-1.99.166-.663.333-1.326.333-1.99 0-1.25-.5-2.5-1.833-2.5-1.333 0-2.667 1.25-2.667 3.25s.9 3.25 2.5 3.25c1.333 0 2.25-.962 2.25-2.25 0-.962-.367-2.148-.733-3.16-.367-1.02-.267-1.562.3-2.582.562-1.02.9-1.562 1.532-1.562.932 0 1.562.793 1.562 1.562 0 .663-.2 1.326-.366 1.99-.167-.663-.333-1.326-.333-1.99 0 1.25.5 2.5 1.833-2.5 1.333 0 2.667-1.25 2.667-3.25s-.9-3.25-2.5-3.25c-1.333 0-2.25.962-2.25 2.25 0 .962.367 2.148.733 3.16.366 1.02.267 1.562-.3 2.582-.562 1.02-.9 1.562-1.532 1.562z" fill-rule="evenodd" fill="currentColor"></path></svg>
-                        <span>Ver y Comprar en WhatsApp</span>
-                    </a>
-                </div>
-            </div>
-        `;
-}).join('');
-
-// 3. Añadir todo el HTML generado al contenedor del libro
-bookElement.innerHTML = coverPageHTML + productPagesHTML;
-
-// 4. Inicializar PageFlip DESPUÉS de que el HTML está en la página
 const pageFlip = new St.PageFlip(bookElement, {
     width: 500,
     height: 700,
 });
+
+// Vamos a cargar UNA SOLA imagen
+pageFlip.loadFromImages(['assets/pagina1.jpg']);
 
 // La librería detecta automáticamente las páginas hijas, no se necesita "load"
 });
