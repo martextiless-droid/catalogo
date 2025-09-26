@@ -48,18 +48,22 @@ document.addEventListener('DOMContentLoaded', function () {
             ref: '3309', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
+	{
   	    image: 'assets/pagina10.jpg',
             ref: '3310', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
+	{
  	    image: 'assets/pagina11.jpg',
             ref: '3311', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
+	{
             image: 'assets/pagina12.jpg',
             ref: '3312', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
+	{
             image: 'assets/pagina13.jpg',
             ref: '3313', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
@@ -68,22 +72,27 @@ document.addEventListener('DOMContentLoaded', function () {
             ref: '3314', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
+	{
             image: 'assets/pagina15.png',
             ref: '3315', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
+	{
             image: 'assets/pagina16.jpg',
             ref: '3316', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
+	{
             image: 'assets/pagina17.jpg',
             ref: '3317', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
+	{
             image: 'assets/pagina18.png',
             ref: '3318', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
+	{
             image: 'assets/pagina19.jpg',
             ref: '3308', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
