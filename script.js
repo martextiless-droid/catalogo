@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
             link: 'https://wa.me/p/3760818927282293/573015547616'
         },
         {
-            image: 'assets/pagina2.png',
+            image: 'assets/pagina2.jpg',
             ref: '3302', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/8897517780318866/573015547616'
         },
