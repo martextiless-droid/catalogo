@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
 *Precios por Cantidad:*
 - Valor x 1: $21.000
 - Valor x 6: $84.000 ($14.000 c/u)
-- Valor x 12: $144.000 ($12.00 c/u)
+- Valor x 12: $144.000 ($12.000 c/u)
 - Valor x 120+: $11.500 c/u`,
             link: 'https://wa.me/p/24073798738876233/573015547616'
         },
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
 *Precios por Cantidad:*
 - Valor x 1: $21.000
 - Valor x 6: $84.000 ($14.000 c/u)
-- Valor x 12: $144.000 ($12.00 c/u)
+- Valor x 12: $144.000 ($12.000 c/u)
 - Valor x 120+: $11.500 c/u`,
             link: 'https://wa.me/p/5904539409675217/573015547616'
         },
@@ -136,22 +136,22 @@ document.addEventListener('DOMContentLoaded', function () {
 	    image: 'assets/pagina9.jpg',
             ref: '3309XL',
             title: 'Pijama Enterizo Ref: 3309XL',
-            price: 'Desde COP 9.000 al por mayor',
+            price: 'Desde COP 11.500 al por mayor',
             description: `*TALLA:* XL
 *TELA:* Piel de durazno.
 *Estampados surtidos.*
 
 *Precios por Cantidad:*
-- Valor x 1: $18.000
-- Valor x 6: $69.000 ($11.500 c/u)
-- Valor x 12: $114.000 ($9.500 c/u)
-- Valor x 120+: $9.000 c/u`,
+- Valor x 1: $21.000
+- Valor x 6: $84.000 ($14.000 c/u)
+- Valor x 12: $144.000 ($12.000 c/u)
+- Valor x 120+: $11.500 c/u`,
             link: 'https://wa.me/p/9333409850032256/573015547616'
         },
 	{
   	    image: 'assets/pagina10.jpg',
             ref: '3310',
-            title: 'Pijama Short Ref: 3310',
+            title: 'Pijama Enterizo Ref: 3310',
             price: 'Desde COP 9.000 al por mayor',
             description: `*TALLA:* Unica
 *TELA:* Piel de durazno.
@@ -168,16 +168,16 @@ document.addEventListener('DOMContentLoaded', function () {
  	    image: 'assets/pagina11.jpg',
             ref: '3311',
             title: 'Pijama Bolero Ref: 3311',
-            price: 'Desde COP 9.000 al por mayor',
+            price: 'Desde COP 10.500 al por mayor',
             description: `*TALLA:* Unica
 *TELA:* Piel de durazno.
 *Estampados surtidos.*
 
 *Precios por Cantidad:*
-- Valor x 1: $18.000
-- Valor x 6: $69.000 ($11.500 c/u)
-- Valor x 12: $114.000 ($9.500 c/u)
-- Valor x 120+: $9.000 c/u`,
+- Valor x 1: $20.000
+- Valor x 6: $78.000 ($13.000 c/u)
+- Valor x 12: $132.000 ($11.000 c/u)
+- Valor x 120+: $10.500 c/u`,
             link: 'https://wa.me/p/6172729359473823/573015547616'
         },
 	{

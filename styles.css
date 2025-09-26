@@ -14,10 +14,11 @@ body {
 /* Contenedor del libro */
 .flipbook-container {
     width: 95vw;
-    /* Usamos un ancho fijo para una mejor experiencia en escritorio */
-    max-width: 500px; 
+    /* Aumentamos el ancho máximo para que se vea más grande en PC */
+    max-width: 600px; 
     height: 90vh;
-    max-height: 700px; 
+    /* Aumentamos también la altura máxima para darle más espacio vertical */
+    max-height: 850px; 
 }
 
 /* Estilos para el libro en sí */
@@ -60,13 +61,13 @@ body {
 }
 
 .product-title {
-    font-size: 1.2rem;
+    font-size: 1.3rem; /* Un poco más grande */
     font-weight: bold;
     margin: 0 0 0.25rem 0;
 }
 
 .product-price {
-    font-size: 1rem;
+    font-size: 1.1rem; /* Un poco más grande */
     font-weight: 600;
     color: #00a884;
     margin-bottom: 0.5rem;
@@ -74,8 +75,8 @@ body {
 
 .product-description {
     flex-grow: 1;
-    font-size: 0.8rem;
-    line-height: 1.4;
+    font-size: 0.9rem; /* Aumentamos el tamaño para mejor legibilidad */
+    line-height: 1.5; /* Aumentamos el interlineado */
     white-space: pre-wrap;
     margin-bottom: 0.5rem;
     color: #606770;
@@ -88,11 +89,11 @@ body {
     justify-content: center;
     background-color: #25D366;
     color: white !important;
-    padding: 10px 15px;
+    padding: 12px 18px; /* Botón un poco más grande */
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1rem; /* Texto del botón más grande */
     text-align: center;
     margin-top: auto;
     transition: background-color 0.3s, transform 0.2s;
@@ -106,8 +107,8 @@ body {
 }
 
 .whatsapp-button svg {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     margin-right: 8px;
 }
 
@@ -120,6 +121,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.cover-page h2 {
+    font-size: 2.5rem;
 }
 
 .cover-page h2 {
