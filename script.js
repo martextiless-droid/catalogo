@@ -11,92 +11,92 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             image: 'assets/pagina2.jpg',
-            ref: '3302', // Asumido, cambiar si es necesario
+            ref: '3303', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/8897517780318866/573015547616'
         },
         {
             image: 'assets/pagina3.png',
-            ref: '3303', // Asumido, cambiar si es necesario
+            ref: '3306', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/6043646905731935/573015547616'
         },
         {
             image: 'assets/pagina4.png',
-            ref: '3304', // Asumido, cambiar si es necesario
+            ref: '3308', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/24073798738876233/573015547616'
         },
         {
             image: 'assets/pagina5.jpg',
-            ref: '3305', // Asumido, cambiar si es necesario
+            ref: '3308XL', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/6114342001952498/573015547616'
         },
         {
             image: 'assets/pagina6.png',
-            ref: '3306', // Asumido, cambiar si es necesario
+            ref: '3309', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5904539409675217/573015547616'
         },
         {
             image: 'assets/pagina7.png',
-            ref: '3307', // Asumido, cambiar si es necesario
+            ref: '3309XL', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5351728944929832/573015547616'
         },
         {
             image: 'assets/pagina8.jpg',
-            ref: '3308', // Asumido, cambiar si es necesario
-            link: 'https://wa.me/p/5910055192376860/573015547616'
-        },
-	{
-	    image: 'assets/pagina9.jpg',
-            ref: '3309', // Asumido, cambiar si es necesario
-            link: 'https://wa.me/p/5910055192376860/573015547616'
-        },
-	{
-  	    image: 'assets/pagina10.jpg',
             ref: '3310', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
- 	    image: 'assets/pagina11.jpg',
+	    image: 'assets/pagina9.jpg',
             ref: '3311', // Asumido, cambiar si es necesario
-            link: 'https://wa.me/p/5910055192376860/573015547616'
+            link: 'https://wa.me/p/9333409850032256/573015547616'
+        },
+	{
+  	    image: 'assets/pagina10.jpg',
+            ref: '3312', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5995638747158343/573015547616'
+        },
+	{
+ 	    image: 'assets/pagina11.jpg',
+            ref: '3315', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/6172729359473823/573015547616'
         },
 	{
             image: 'assets/pagina12.jpg',
-            ref: '3312', // Asumido, cambiar si es necesario
-            link: 'https://wa.me/p/5910055192376860/573015547616'
+            ref: '3316', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/6390426561042311/573015547616'
         },
 	{
             image: 'assets/pagina13.jpg',
-            ref: '3313', // Asumido, cambiar si es necesario
+            ref: '3316XL', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
             image: 'assets/pagina14.jpg',
-            ref: '3314', // Asumido, cambiar si es necesario
-            link: 'https://wa.me/p/5910055192376860/573015547616'
-        },
-	{
-            image: 'assets/pagina15.png',
-            ref: '3315', // Asumido, cambiar si es necesario
-            link: 'https://wa.me/p/5910055192376860/573015547616'
-        },
-	{
-            image: 'assets/pagina16.jpg',
-            ref: '3316', // Asumido, cambiar si es necesario
-            link: 'https://wa.me/p/5910055192376860/573015547616'
-        },
-	{
-            image: 'assets/pagina17.jpg',
             ref: '3317', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
+            image: 'assets/pagina15.png',
+            ref: '3317XL', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/pagina16.jpg',
+            ref: '3319', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/pagina17.jpg',
+            ref: '3320', // Asumido, cambiar si es necesario
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
             image: 'assets/pagina18.png',
-            ref: '3318', // Asumido, cambiar si es necesario
+            ref: '3324', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
             image: 'assets/pagina19.jpg',
-            ref: '3308', // Asumido, cambiar si es necesario
+            ref: '3328', // Asumido, cambiar si es necesario
             link: 'https://wa.me/p/5910055192376860/573015547616'
         }
     ];
