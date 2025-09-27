@@ -306,9 +306,25 @@ const products = [
         }
     ];
 
+
+
+
  // --- CÓDIGO PARA CREAR LAS PÁGINAS DEL LIBRO ---
 document.addEventListener('DOMContentLoaded', function() {
     const catalogBook = document.getElementById('catalog-book');
+
+    // ===== INICIO: CÓDIGO NUEVO PARA LA PORTADA =====
+    const coverPage = document.createElement('div');
+    coverPage.className = 'page cover-page'; // Nueva clase 'cover-page'
+    coverPage.innerHTML = `
+        <div class="page-content">
+            <h1>Pijamas Martex</h1>
+            <h2>Colección 2025</h2>
+            <p>Calidad y comodidad para tus sueños.</p>
+        </div>
+    `;
+    catalogBook.appendChild(coverPage);
+    // ===== FIN: CÓDIGO NUEVO PARA LA PORTADA =====
 
     // 1. Crear y añadir las páginas del libro dinámicamente
     products.forEach(product => {
