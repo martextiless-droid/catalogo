@@ -121,3 +121,18 @@ body {
     margin-top: 30px;
     font-style: italic;
 }
+
+/* --- Estilos para Numeración de Página --- */
+.flipbook-container {
+    counter-reset: pageNum; /* Inicia el contador de páginas */
+}
+
+.product-page::after {
+    counter-increment: pageNum; /* Incrementa el contador en cada página de producto */
+    content: counter(pageNum); /* Muestra el número */
+    position: absolute;
+    bottom: 15px; /* Posición en la esquina inferior */
+    right: 20px;
+    font-size: 0.8rem;
+    color: #888;
+}

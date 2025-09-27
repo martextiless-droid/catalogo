@@ -330,7 +330,7 @@ document.addEventListener('DOMContentLoaded', function() {
     products.forEach(product => {
         // Contenedor principal de la página
         const page = document.createElement('div');
-        page.className = 'page';
+        page.className = 'page product-page';
 
         // Contenido interno de la página
         const pageContent = document.createElement('div');
