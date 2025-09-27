@@ -5,11 +5,11 @@ const products = [
             ref: '3301',
             title: 'Pijama Short Tiras Ref: 3301',
             price: 'Desde COP 9.000 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $18.000
 - Valor x 6: $69.000 ($11.500 c/u)
 - Valor x 12: $114.000 ($9.500 c/u)
@@ -21,11 +21,11 @@ const products = [
             ref: '3303',
             title: 'Pijama Batola Ref: 3303',
             price: 'Desde COP 9.000 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $18.000
 - Valor x 6: $69.000 ($11.500 c/u)
 - Valor x 12: $114.000 ($9.500 c/u)
@@ -37,11 +37,11 @@ const products = [
             ref: '3305',
             title: 'Pijama Short Ref: 3305',
             price: 'Desde COP 9.000 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $18.000
 - Valor x 6: $69.000 ($11.500 c/u)
 - Valor x 12: $114.000 ($9.500 c/u)
@@ -53,11 +53,11 @@ const products = [
             ref: '3305XL',
             title: 'Pijama Short XL Ref: 3305XL',
             price: 'Desde COP 11.500 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $21.000
 - Valor x 6: $84.000 ($14.000 c/u)
 - Valor x 12: $144.000 ($12.000 c/u)
@@ -69,11 +69,11 @@ const products = [
             ref: '3306',
             title: 'Pijama Short Ref: 3306',
             price: 'Desde COP 9.000 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $18.000
 - Valor x 6: $69.000 ($11.500 c/u)
 - Valor x 12: $114.000 ($9.500 c/u)
@@ -85,11 +85,11 @@ const products = [
             ref: '3308',
             title: 'Pijama Enterizo Ref: 3308',
             price: 'Desde COP 11.500 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $21.000
 - Valor x 6: $84.000 ($14.000 c/u)
 - Valor x 12: $144.000 ($12.000 c/u)
