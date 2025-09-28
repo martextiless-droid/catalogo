@@ -113,7 +113,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5351728944929832/573015547616'
         },
         {
-            image: 'assets/3309.jpg',
+            image: 'assets/3309.png',
             ref: '3309',
             title: 'Pijama Enterizo Ref: 3309',
             price: 'Desde COP 9.500 al por mayor',
@@ -129,7 +129,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-	    image: 'assets/3309XL.png',
+	    image: 'assets/3309XL.jpg',
             ref: '3309XL',
             title: 'Pijama Enterizo Ref: 3309XL',
             price: 'Desde COP 11.500 al por mayor',
@@ -161,7 +161,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5995638747158343/573015547616'
         },
 	{
- 	    image: 'assets/3311.jpg',
+ 	    image: 'assets/3311.png',
             ref: '3311',
             title: 'Pijama Bolero Ref: 3311',
             price: 'Desde COP 10.500 al por mayor',
@@ -257,7 +257,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3319'.jpg',
+            image: 'assets/3317'.jpg',
             ref: '3320',
             title: 'Pijama Short Ref: 3319',
             price: 'Desde COP 9.000 al por mayor',
@@ -273,7 +273,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3320.jpg',
+            image: 'assets/3319.jpg',
             ref: '3324',
             title: 'Pijama Short Ref: 3320',
             price: 'Desde COP 9.000 al por mayor',
@@ -289,7 +289,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3324.jpg',
+            image: 'assets/3320.jpg',
             ref: '3328',
             title: 'Pijama Short Ref: 3324',
             price: 'Desde COP 9.000 al por mayor',
@@ -305,7 +305,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3328.jpg',
+            image: 'assets/3324.jpg',
             ref: '3329',
             title: 'Pijama Short Ref: 3328',
             price: 'Desde COP 9.000 al por mayor',
@@ -321,7 +321,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3329.jpg',
+            image: 'assets/3328.jpg',
             ref: '3328',
             title: 'Pijama Short Ref: 3329',
             price: 'Desde COP 9.000 al por mayor',
@@ -337,7 +337,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3330.jpg',
+            image: 'assets/3329.jpg',
             ref: '3328',
             title: 'Pijama Short Ref: 3330',
             price: 'Desde COP 9.000 al por mayor',
@@ -353,7 +353,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3330XL.jpg',
+            image: 'assets/3330.jpg',
             ref: '3328',
             title: 'Pijama Short Ref: 3330XL',
             price: 'Desde COP 9.000 al por mayor',
@@ -369,7 +369,7 @@ Estampados surtidos.
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3331.jpg',
+            image: 'assets/3330XL.png',
             ref: '3328',
             title: 'Pijama Short Ref: 3331',
             price: 'Desde COP 9.000 al por mayor',
@@ -385,9 +385,73 @@ Estampados surtidos.
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3334.jpg',
+            image: 'assets/3331.jpg',
             ref: '3328',
             title: 'Pijama Short Ref: 3334',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+*Precios por Cantidad:*
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/3335.jpg',
+            ref: '3328',
+            title: 'Pijama Short Ref: 3335',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+*Precios por Cantidad:*
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/3335XL.jpg',
+            ref: '3328',
+            title: 'Pijama Short Ref: 3334',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+*Precios por Cantidad:*
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/3336.png',
+            ref: '3328',
+            title: 'Pijama Short Ref: 3336',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+*Precios por Cantidad:*
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/3338.jpg',
+            ref: '3338',
+            title: 'Pijama Short Ref: 3338',
             price: 'Desde COP 9.000 al por mayor',
             description: `TALLA: Unica
 TELA: Piel de durazno.
