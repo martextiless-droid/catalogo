@@ -463,6 +463,38 @@ Estampados surtidos.
 - Valor x 12: $114.000 ($9.500 c/u)
 - Valor x 120+: $9.000 c/u`,
             link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/3336.jpg',
+            ref: '3336',
+            title: 'Pijama Short Ref: 3336',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+*Precios por Cantidad:*
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/3338.jpg',
+            ref: '3338',
+            title: 'Pijama Short Ref: 3338',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+*Precios por Cantidad:*
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
         }
     ];
 
