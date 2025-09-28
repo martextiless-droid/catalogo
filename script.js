@@ -101,11 +101,11 @@ Precios por Cantidad:
             ref: '3308XL',
             title: 'Pijama Enterizo Ref: 3308XL',
             price: 'Desde COP 13.500 al por mayor',
-            description: `*TALLA:* XL
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: XL
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $25.000
 - Valor x 6: $96.000 ($16.000 c/u)
 - Valor x 12: $168.000($14.000 c/u)
@@ -117,11 +117,11 @@ Precios por Cantidad:
             ref: '3309',
             title: 'Pijama Enterizo Ref: 3309',
             price: 'Desde COP 9.500 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $18.000
 - Valor x 6: $72.000 ($12.000 c/u)
 - Valor x 12: $120.000 ($10.000 c/u)
@@ -133,11 +133,11 @@ Precios por Cantidad:
             ref: '3309XL',
             title: 'Pijama Enterizo Ref: 3309XL',
             price: 'Desde COP 11.500 al por mayor',
-            description: `*TALLA:* XL
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: XL
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $21.000
 - Valor x 6: $84.000 ($14.000 c/u)
 - Valor x 12: $144.000 ($12.000 c/u)
@@ -149,11 +149,11 @@ Precios por Cantidad:
             ref: '3310',
             title: 'Pijama Enterizo Ref: 3310',
             price: 'Desde COP 9.000 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $18.000
 - Valor x 6: $69.000 ($11.500 c/u)
 - Valor x 12: $114.000 ($9.500 c/u)
@@ -165,11 +165,11 @@ Precios por Cantidad:
             ref: '3311',
             title: 'Pijama Bolero Ref: 3311',
             price: 'Desde COP 10.500 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $20.000
 - Valor x 6: $78.000 ($13.000 c/u)
 - Valor x 12: $132.000 ($11.000 c/u)
@@ -181,11 +181,11 @@ Precios por Cantidad:
             ref: '3312',
             title: 'Pijama Batola Ref: 3312',
             price: 'Desde COP 9.000 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
 
-*Precios por Cantidad:*
+Precios por Cantidad:
 - Valor x 1: $18.000
 - Valor x 6: $69.000 ($11.500 c/u)
 - Valor x 12: $114.000 ($9.500 c/u)
@@ -293,9 +293,105 @@ Precios por Cantidad:
             ref: '3328',
             title: 'Pijama Short Ref: 3328',
             price: 'Desde COP 9.000 al por mayor',
-            description: `*TALLA:* Unica
-*TELA:* Piel de durazno.
-*Estampados surtidos.*
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+Precios por Cantidad:
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/pagina20.jpg',
+            ref: '3329',
+            title: 'Pijama Short Ref: 3329',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+Precios por Cantidad:
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/pagina21.jpg',
+            ref: '3328',
+            title: 'Pijama Short Ref: 3330',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+Precios por Cantidad:
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/pagina22.jpg',
+            ref: '3328',
+            title: 'Pijama Short Ref: 3330XL',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+Precios por Cantidad:
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/pagina23.jpg',
+            ref: '3328',
+            title: 'Pijama Short Ref: 3331',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+*Precios por Cantidad:*
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/pagina24.jpg',
+            ref: '3328',
+            title: 'Pijama Short Ref: 3334',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
+
+*Precios por Cantidad:*
+- Valor x 1: $18.000
+- Valor x 6: $69.000 ($11.500 c/u)
+- Valor x 12: $114.000 ($9.500 c/u)
+- Valor x 120+: $9.000 c/u`,
+            link: 'https://wa.me/p/5910055192376860/573015547616'
+        },
+	{
+            image: 'assets/pagina25.jpg',
+            ref: '3328',
+            title: 'Pijama Short Ref: 3335',
+            price: 'Desde COP 9.000 al por mayor',
+            description: `TALLA: Unica
+TELA: Piel de durazno.
+Estampados surtidos.
 
 *Precios por Cantidad:*
 - Valor x 1: $18.000
