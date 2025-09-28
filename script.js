@@ -1,7 +1,7 @@
 // --- BASE DE DATOS DE PRODUCTOS ---
 const products = [
     {
-            image: 'assets/pagina1.png',
+            image: 'assets/3301.png',
             ref: '3301',
             title: 'Pijama Short Tiras Ref: 3301',
             price: 'Desde COP 9.000 al por mayor',
@@ -17,7 +17,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/3760818927282293/573015547616'
         },
         {
-            image: 'assets/pagina2.jpg',
+            image: 'assets/3303.jpg',
             ref: '3303',
             title: 'Pijama Batola Ref: 3303',
             price: 'Desde COP 9.000 al por mayor',
@@ -33,7 +33,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/8897517780318866/573015547616'
         },
         {
-	    image: 'assets/pagina3.jpg',
+	    image: 'assets/3305.jpg',
             ref: '3305',
             title: 'Pijama Short Ref: 3305',
             price: 'Desde COP 9.000 al por mayor',
@@ -385,7 +385,7 @@ Estampados surtidos.
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/pagina25.jpg',
+            image: 'assets/3317.jpg',
             ref: '3328',
             title: 'Pijama Short Ref: 3335',
             price: 'Desde COP 9.000 al por mayor',
