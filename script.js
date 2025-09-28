@@ -97,7 +97,7 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5904539409675217/573015547616'
         },
         {
-            image: 'assets/3308XL.png',
+            image: 'assets/3308XL.jpg',
             ref: '3308XL',
             title: 'Pijama Enterizo Ref: 3308XL',
             price: 'Desde COP 13.500 al por mayor',
@@ -369,7 +369,7 @@ Estampados surtidos.
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3330.png',
+            image: 'assets/3330.jpg',
             ref: '3330',
             title: 'Pijama Short Ref: 3330',
             price: 'Desde COP 9.000 al por mayor',
@@ -385,7 +385,7 @@ Estampados surtidos.
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3330XL.jpg',
+            image: 'assets/3330XL.png',
             ref: '3330XL',
             title: 'Pijama Short Ref: 3330XL',
             price: 'Desde COP 9.000 al por mayor',
@@ -433,7 +433,7 @@ Estampados surtidos.
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3335.png',
+            image: 'assets/3335.jpg',
             ref: '3335',
             title: 'Pijama Short Ref: 3335',
             price: 'Desde COP 9.000 al por mayor',
@@ -449,7 +449,7 @@ Estampados surtidos.
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3335XL.jpg',
+            image: 'assets/3335XL.png',
             ref: '3335XL',
             title: 'Pijama Short Ref: 3335XL',
             price: 'Desde COP 9.000 al por mayor',
@@ -465,7 +465,7 @@ Estampados surtidos.
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3336.jpg',
+            image: 'assets/3336.png',
             ref: '3336',
             title: 'Pijama Short Ref: 3336',
             price: 'Desde COP 9.000 al por mayor',
