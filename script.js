@@ -257,9 +257,9 @@ Precios por Cantidad:
             link: 'https://wa.me/p/5910055192376860/573015547616'
         },
 	{
-            image: 'assets/3317'.jpg',
+            image: 'assets/3317.jpg',
             ref: '3320',
-            title: 'Pijama Short Ref: 3319',
+            title: 'Pijama Short Ref: 3317',
             price: 'Desde COP 9.000 al por mayor',
             description: `TALLA: Unica
 TELA: Piel de durazno.
